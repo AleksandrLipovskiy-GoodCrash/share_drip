@@ -46,3 +46,7 @@ config :share_drip_web, ShareDripWeb.Endpoint,
 #       force_ssl: [hsts: true]
 #
 # Check `Plug.SSL` for all available options in `force_ssl`.
+
+# Configure provide for file storage
+config :share_drip,
+  storage_provider: ShareDrip.Storage.Providers.GoogleCloudStorage.Live

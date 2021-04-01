@@ -25,6 +25,10 @@ config :share_drip_web, ShareDripWeb.Endpoint,
 config :share_drip,
   ecto_repos: [ShareDrip.Repo]
 
+# Configure provide for file storage
+config :share_drip,
+  storage_provider: ShareDrip.Storage.Providers.GoogleCloudStorage.Local
+
 # Sample configuration:
 #
 #     config :logger, :console,
