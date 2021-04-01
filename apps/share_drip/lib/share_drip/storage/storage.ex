@@ -1,7 +1,7 @@
 defmodule ShareDrip.Storage do
   @moduledoc false
 
-  alias ElixirDrip.Utils
+  alias ShareDrip.Utils
   alias ShareDrip.Storage.Media
   alias ShareDrip.Storage.Provider
 
